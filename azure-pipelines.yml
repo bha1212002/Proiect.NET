@@ -6,7 +6,8 @@
 trigger:
 - master
 
-pool: azrelease
+pool:
+  vmImage: azrelease
 
 variables:
   buildConfiguration: 'Release'
